@@ -31,7 +31,6 @@
     float:left;
     width:100px;
     height:100px;
-    background-color:white;
     margin-left: 125px;
 
 }
@@ -39,13 +38,11 @@
     float:left;
     width:100px;
     height:100px;
-    background-color:white;
     margin-left:125px;
 }
 .right {
     float:right;
     width:100px;
     height:100px;
-    background-color:white;
     margin-left:120px;
 }
