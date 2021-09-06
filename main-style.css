@@ -3,6 +3,8 @@
     margin: auto;
     height: auto;
     padding: 40px;
+    vertical-align: center;
+
 }
 .main-container h4{
     text-align: center;
