@@ -1,0 +1,51 @@
+.main-container{
+    max-width: 800px;
+    margin: auto;
+    height: auto;
+    padding: 40px;
+}
+.main-container h4{
+    text-align: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+}
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    justify-content: space-evenly;
+}
+.float-container{
+    display: inline-block;
+
+}
+
+.left {
+    float:left;
+    width:100px;
+    height:100px;
+    background-color:white;
+    margin-left: 125px;
+
+}
+.middle {
+    float:left;
+    width:100px;
+    height:100px;
+    background-color:white;
+    margin-left:125px;
+}
+.right {
+    float:right;
+    width:100px;
+    height:100px;
+    background-color:white;
+    margin-left:120px;
+}
