@@ -1,43 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>main</title>
-    <link rel="stylesheet" href="main-style.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <head>
+        <meta charset="UTF-8">
+        <title>main</title>
+        <link rel="stylesheet" href="main-style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
 
-</head>
-<body>
-<div class="main-container">
-
-    <h4>Flex Box</h4>
-    <div class="flex-container">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
-
-    <h4>Float Box</h4>
-    <div class="float-container">
-        <div class="left"></div>
-        <div class="middle"></div>
-        <div class="right"></div>
-    </div>
-
-    <h4>Grid Box</h4>
-    <div class="grid-container">
-        <div class="box"></div>
-        <div class="box"></div>
-        <div class="box"></div>
-    </div>
-
-</div>
-
-
-<script>
-    $('.flex-container .box').css('background',"#bbbccc");
-    $('.grid-container .box').css('background',"#dddfff");
-    $('.float-container > *').css('background',"#eeebbb");
-</script>
-</body>
+    <body>
+    
+        <div class="main-container">
+        
+            <h4>Flex Box</h4>
+            <div class="flex-container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        
+            <h4>Float Box</h4>
+            <div class="float-container">
+                <div class="left"></div>
+                <div class="middle"></div>
+                <div class="right"></div>
+            </div>
+        
+            <h4>Grid Box</h4>
+            <div class="grid-container">
+                <div class="box"></div>
+                <div class="box"></div>
+                <div class="box"></div>
+            </div>
+        
+        </div>
+        
+        
+        <script>
+            $('.flex-container .box').css('background',"#bbbccc");
+            $('.grid-container .box').css('background',"#dddfff");
+            $('.float-container > *').css('background',"#eeebbb");
+        </script>
+    </body>
 </html>
